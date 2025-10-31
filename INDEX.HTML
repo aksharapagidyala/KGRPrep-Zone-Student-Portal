@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KG Reddy College</title>
+    <link rel="stylesheet" href="KGREDDY.CSS"> <!-- External CSS -->
+    <script src="kg.js" defer></script>  <!-- External JavaScript -->
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="logo">
+            <img src="KGRCETLOGO.jpg" alt="KG Reddy Logo" height="50" width="50">
+        </div>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- Hero Image -->
+    <img src="previous.jpg" alt="image" style="width:1293.5px;height:300px;">
+    
+
+    <h2 align="center">Choose Course for Previous Question Papers</h2>
+
+    <!-- Degree Selection -->
+    <div class="degree-container">
+        <table border="2">
+            <tr>
+                <td><a onclick="showDepartments('Btech')">B.Tech</a></td>
+                <td><a onclick="showDepartments('MBA')">MBA</a></td>
+                <td><a onclick="showDepartments('M.Tech')">M.Tech</a></td>
+            </tr>
+        </table>
+    </div>
+
+    <br><br>
+
+    <!-- Departments Table -->
+    <!--<div id="table-container" class="table-container">
+        <table class="table table-1 striped" border="2">
+            <thead>
+                <tr>
+                    <th>S.No</th>
+                    <th>Department</th>
+                    <th>Regulation</th>
+                    <th>Question Papers</th>
+                </tr>
+            </thead>
+            <tbody id="departments">
+            </tbody>
+        </table>
+    </div>-->
+    <div id="table-container" class="table-container" style="display: none;">
+        <table class="table table-1 striped" border="2">
+            <thead>
+                <tr>
+                    <th>S.No</th>
+                    <th>Department</th>
+                    <th>Regulation</th>
+                    <th>Question Papers</th>
+                </tr>
+            </thead>
+            <tbody id="departments">
+            </tbody>
+        </table>
+    </div>
+    
+
+    <br>
+
+    <!-- About Section -->
+    <section id="about" class="about-container">
+        <h2>ABOUT</h2>
+        <p>
+            KG Reddy College of Engineering and Technology (KGRCET) is a premier institution 
+            dedicated to fostering innovation, academic excellence, and professional growth. 
+            Our vision is to empower students with industry-relevant skills, ensuring their 
+            success in the ever-evolving technological world.
+        </p>
+
+        <h3>Academic Excellence</h3>
+        <p>
+            We offer undergraduate and postgraduate programs in engineering, management, and technology. 
+            Our curriculum includes hands-on learning, research-driven projects, and industry collaborations.
+        </p>
+
+        <h3>Faculty & Learning Environment</h3>
+        <p>
+            Our experienced faculty members promote continuous learning, supported by modern classrooms, 
+            well-equipped laboratories, and digital libraries.
+        </p>
+
+        <h3>Placements & Industry Tie-ups</h3>
+        <p>
+            We partner with leading companies to provide students with internships, training, 
+            and placement opportunities in top organizations.
+        </p>
+
+        <h3>Student Life & Extracurricular Activities</h3>
+        <p>
+            KGRCET offers a vibrant campus life with various clubs, cultural events, 
+            and technical competitions, fostering holistic development.
+        </p>
+    </section>
+    <BR>
+        <!-- Services Section -->
+<section id="services" class="services-container">
+    <h2>Our Services</h2>
+
+    <div class="service-grid">
+        <div class="service-box">
+            <h3>Academic Programs</h3>
+            <p>We offer B.Tech, M.Tech, and MBA programs with industry-relevant curricula.</p>
+        </div>
+
+        <div class="service-box">
+            <h3>State-of-the-Art Labs</h3>
+            <p>Advanced computer, electronics, and mechanical labs for practical learning.</p>
+        </div>
+
+        <div class="service-box">
+            <h3>Library & Digital Resources</h3>
+            <p>Access to thousands of books, research papers, and digital learning materials.</p>
+        </div>
+
+        <div class="service-box">
+            <h3>Placement & Career Guidance</h3>
+            <p>Internships, job placements, and career counseling with top recruiters.</p>
+        </div>
+
+        <div class="service-box">
+            <h3>Innovation & Research</h3>
+            <p>Encouraging students to participate in research projects and hackathons.</p>
+        </div>
+
+        <div class="service-box">
+            <h3>Student Clubs & Extracurriculars</h3>
+            <p>Technical, cultural, and sports clubs for holistic student development.</p>
+        </div>
+    </div>
+</section>
+<BR>
+    <!-- Contact Section -->
+<!-- Contact Section -->
+<!-- Contact Section -->
+<section id="contact" class="contact-container">
+    <h2>Contact Us</h2>
+
+    <!-- College Logo -->
+    <div class="contact-logo">
+        <img src="KG.LOGO.png" alt="KG Reddy College Logo">
+    </div>
+
+    <div class="contact-details">
+        <div class="contact-info">
+            <h3>📍 Address</h3>
+            <p>KG Reddy College of Engineering & Technology,</p>
+            <p>Moinabad, Hyderabad, Telangana, India</p>
+        </div>
+
+        <div class="contact-info">
+            <h3>📞 Phone</h3>
+            <p>+91 98765 43210</p>
+            <p>+91 87654 32109</p>
+        </div>
+
+        <div class="contact-info">
+            <h3>📧 Email</h3>
+            <p><a href="mailto:info@kgr.ac.in">info@kgr.ac.in</a></p>
+            <p><a href="mailto:admissions@kgr.ac.in">admissions@kgr.ac.in</a></p>
+        </div>
+
+        <div class="contact-info">
+            <h3>🌐 Follow Us</h3>
+            <p>
+                <a href="https://www.facebook.com/kgrcet" target="_blank"><img src="facebook-logo.jpg" height="25"></a> | 
+                <a href="https://www.instagram.com/kgrcet/?hl=en" target="_blank"><img src="insta.png" height="25"></a> | 
+                <a href="https://www.linkedin.com/school/kg-reddy-college-of-engineering-and-technology/posts/?feedView=all" target="_blank"><img src="linkedin.jpg" height="25"></a>
+            </p>
+        </div>
+    </div>
+
+    <div class="map-container">
+        <h3>📍 Locate Us</h3>
+        <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.938351450644!2d78.123456!3d17.123456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb123456789!2sKG%20Reddy%20College%20of%20Engineering%20and%20Technology!5e0!3m2!1sen!2sin!4v1612323456789!5m2!1sen!2sin" 
+            width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy">
+        </iframe>
+    </div>
+</section>
+
+
+</body>
+</html>
